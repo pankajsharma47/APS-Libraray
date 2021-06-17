@@ -1,4 +1,3 @@
-#include <iostream>
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -7,10 +6,10 @@ void addNode(map<int, list<int>> &adj, int u, int v)
 {
     // these two lines are for undirected graph
     adj[u].push_back(v);
-    //adj[v].push_back(u);    // for directed graph remove this line  
+    //adj[v].push_back(u);    // for directed graph remove this line
 }
 /*
-// this function is for undirected graph 
+// this function is for undirected graph
 // https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
 bool isCycle(int V, vector<int> adj[])
 {
